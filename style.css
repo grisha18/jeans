@@ -3,11 +3,17 @@
     padding: 0;
     font-family: 'Work Sans', sans-serif;
 }
+.header-container{
+    max-width: 768px;
+}
 .header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     padding: 1em;
+    margin-left: 45px;
+    margin-right: 45px;
 }
 .menu__list{
     list-style: none;
@@ -26,6 +32,9 @@
 .header__search img{
     height: 20px;
     width: 18px;
+}
+.main-container{
+    max-width: 768px;
 }
 .main{
     height: 260px;
@@ -112,6 +121,18 @@
     line-height: 21px;
     color: #151C22;
     padding: 5px 0 0 15px;
+}
+.vector{
+    margin-left: 82px;
+}
+.vector__price{
+    margin-left: 110px;
+}
+.vector__color{
+    margin-left: 108px;
+}
+.vector__collection{
+    margin-left: 70px;
 }
 .shop__price{
     height: 115px;
@@ -205,6 +226,14 @@
     position: absolute;
     top: 65px;
     right: 42px;
+}
+.shop-line__black{
+    position: absolute;
+    top:  70px;
+    left: 40px;
+    width: 117px;
+    height: 0px;
+    border: 2px solid #151C22;
 }
 .price__number{
     display: flex;
@@ -323,6 +352,32 @@
 .main-woman__img{
     margin-top: 50px;
 }
+.main-woman__jacket{
+    position: relative;
+}
+.main-right__jacket{
+    position: absolute;
+    top: 0;
+    left: 235px;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #151C22;
+}
+.main-right__price{
+    margin-top: -40px;
+    margin-left: 235px;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #151C22;
+}
 .main__image{
     margin-top: 35px;
     display: flex;
@@ -333,7 +388,11 @@
     display: flex;
     justify-content: space-around;
     margin-top: -40px;
+    margin-left: 45px;
     margin-right: 45px;
+}
+.main-girl__images img{
+    margin-left: 30px;
 }
 .collection__jeans{
     display: flex;
@@ -347,6 +406,15 @@
     align-items: center;
     color: #151C22;
     margin-top: 25px;
+}
+.jacket__one div{
+    margin-top: 15px;
+}
+.jacket__two div{
+    margin-top: 15px;
+}
+.jacket__three div{
+    margin-top: 15px;
 }
 .main__items{
     font-family: Work Sans;
@@ -367,11 +435,15 @@
     margin-right: auto;
     margin-top: 5px;
 }
-.main__line::before{
-    content: '';
+.main-line__block{
+    position: relative;
+}
+.main-line__black{
+    position: absolute;
+    top: 0;
+    left: 279px;
     width: 41px;
-    color: #151C22;
-    border-top-color: 2px solid #151C22;
+    border: 2px solid #151C22;
 }
 .main__button{
     width: 206px;
@@ -390,6 +462,9 @@
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 100px;
+}
+.footer-container{
+    max-width: 768px;
 }
 .footer{
     height: 230px;
@@ -421,8 +496,13 @@
 .footer__icon{
     display: flex;
     justify-content: center;
+    margin-bottom: 51px;
 }
 .footer__icon img{
     margin-left: 40px;
     margin-top: 40px;
 }
+.footer__white{
+    height: 33px;
+    background:  #FFFFFF;
+} 
