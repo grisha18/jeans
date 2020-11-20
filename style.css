@@ -7,6 +7,8 @@
 
 .header-container{
     max-width: 768px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .header{
     display: flex;
@@ -37,6 +39,8 @@
 }
 .main-container{
     max-width: 768px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .main{
     height: 260px;
@@ -228,13 +232,12 @@
 }
 
 .range__right{
-    
-    right: 0px;
+     right: 0;
 }
 .shop-line__black{
     position: absolute;
-    top:  70px;
-    left: 40px;
+    top:  -2px;
+    left: 30px;
     width: 117px;
     height: 0px;
     border: 2px solid #151C22;
@@ -469,6 +472,8 @@
 }
 .footer-container{
     max-width: 768px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .footer{
     height: 230px;
