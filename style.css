@@ -224,7 +224,7 @@
     border-radius: 50%;
     position: absolute;
     top: calc( var(--circle-width) / 2 - var(--circle-width) ); 
-    transform: translateX(-50%);
+    z-index: 100;
 }
 
 .range__left{
@@ -237,8 +237,9 @@
 .shop-line__black{
     position: absolute;
     top:  -2px;
-    left: 30px;
-    width: 117px;
+    left: 0;
+    right: 0;
+
     height: 0px;
     border: 2px solid #151C22;
 }
