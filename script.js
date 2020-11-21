@@ -31,11 +31,12 @@ rangeLeft.addEventListener('mousedown', clickHandler )
 // и черную линию обработать
 
 const mousemoveClick = (e) => {
-    if( (e.x < rangeRightX) && (e.x < currentLeft) ){
+    let w = getComputedStyle(rangeRight).getPropertyValue('--circle-width');
+    w = parseInt(w);
+
+    if( (e.x < (rangeRightX + w/2)) && (e.x > (currentLeft + w)) ){
         console.log('hihi');
-        let w = getComputedStyle(rangeRight).getPropertyValue('--circle-width');
-        w = parseInt(w);
-        let offSet = e.x - rangeRightX - w/2;
+        let offSet =  rangeRightX -e.x + w/2;
         rangeRight.style.right = `${offSet}px`; 
     }
 }
